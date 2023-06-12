@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a_search_input:focus + .a_search{
+    display: block;
+}
+.a_search{
+    display: none;
+}
